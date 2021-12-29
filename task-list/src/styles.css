@@ -10,7 +10,7 @@
     padding: 0;
 }
 body{
-    font-family: sans-serif;    
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;    
 }
 
 .container{
@@ -65,7 +65,7 @@ body{
 
 .form-control-check {
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: space-between;
 }
 
@@ -74,6 +74,6 @@ body{
 }
 
 .form-control-check input {
-    flex: 2;
-    height: 20px;
+    flex: 4;
+    height: 15px;
 }

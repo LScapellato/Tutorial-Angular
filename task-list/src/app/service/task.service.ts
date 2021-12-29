@@ -12,7 +12,7 @@ const httpOptions = {headers: new HttpHeaders({'Content-Type': 'application/json
 })
 export class TaskService {
 
-  private apiUrl='http://localhost:3000/tasks'
+  private apiUrl=' http://localhost:3000/tasks'
 
   constructor(
     
@@ -20,13 +20,16 @@ export class TaskService {
   
   getTasks(): Observable <Task[]> {
     //const task=of (TASKS);
-     return this.http.get<Task[]>(this.apiUrl)
-
-    
+     return this.http.get<Task[]>(this.apiUrl) 
   } 
+
   deleteTask(task:Task): Observable<Task>{
-    const url = '${this.apiUrl}/${task.id}';
+    const url = `${this.apiUrl}/${task.id}`
+    //cuando usamos template literal como la linea anterior usamos comillas invertidas
     return this.http.delete<Task>(url);
   }
-
+  updateTaskReminder(task:Task): Observable<Task>{
+    const url = `${this.apiUrl}/${task.id}`
+    return this.http.put<Task>(url, task)
+  }
 }
