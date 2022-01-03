@@ -8,14 +8,26 @@
     },
     {
       "id": 2,
-      "text": "Hacer la compras",
+      "text": "Terminar angular",
       "day": "Agosto 5 a las 17:00",
       "reminder": true
     },
     {
       "id": 3,
-      "text": "Investigar Boostrap",
-      "day": "Agosto 5 a las 19:00",
+      "text": "Hacer la compras",
+      "day": "Agosto 5 a las 17:00",
+      "reminder": true
+    },
+    {
+      "id": 4,
+      "text": "Hacer algo con esto",
+      "day": "Agosto 5 a las 17:00",
+      "reminder": true
+    },
+    {
+      "id": 5,
+      "text": "cuando emite los datos",
+      "day": "Agosto 5 a las 17:00",
       "reminder": true
     }
   ]

@@ -65,7 +65,7 @@ body{
 
 .form-control-check {
     display: flex;
-    align-items: right;
+    align-items: center;
     justify-content: space-between;
 }
 

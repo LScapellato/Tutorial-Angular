@@ -1,7 +1,15 @@
-<form>
+
+
+<form class ="add-form" 
+(ngSubmit)="onSubmit()"
+
+>
 <div class= "form-control">
+    
+    
     <label for="text">Task</label>
     <input 
+    
         type="text" 
         name="text" 
         id="text" 
@@ -11,7 +19,7 @@
 </div>
 
 <div class= "form-control">
-    <label for="text">Day & Time</label>
+    <label for="day" >Day & Time</label>
     <input 
         type="text" 
         name="day" 
@@ -30,8 +38,11 @@
         [(ngModel)]="reminder"
     />
 </div>
-{{ text }}
-<input type="submit" value="Save Task" class="btn btn-block" >
 
+<input 
+    type="submit" 
+    value="Save Task" 
+    class="btn btn-block" 
+    >
 
 </form>
