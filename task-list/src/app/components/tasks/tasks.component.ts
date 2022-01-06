@@ -43,10 +43,10 @@ export class TasksComponent implements OnInit {
   }
     
   addTask(task: Task) {
-      
-      this.tasks.push(task);
-      this.taskService.addTask(task).subscribe();
-     //this.taskService.addTask(task).subscribe((task) => {this.tasks.push(task);})
+      console.log(task)
+      /*this.tasks.push(task);
+      this.taskService.addTask(task).subscribe();*/
+     this.taskService.addTask(task).subscribe((task) => {this.tasks.push(task);})
   }
   
   }
