@@ -1,34 +1,46 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Terminar primer modulo de Angular",
-      "day": "Agosto 5 a las 12:00",
-      "reminder": true
+      "text": "Completar lista de tareas",
+      "day": "2022-01-28T23:06",
+      "reminder": true,
+      "id": 7
     },
     {
-      "id": 2,
-      "text": "Terminar angular",
-      "day": "Agosto 5 a las 17:00",
-      "reminder": true
+      "text": "Mejorar la maqueta del portfolio",
+      "day": "2022-02-16T10:00",
+      "reminder": true,
+      "id": 8
     },
     {
-      "id": 3,
-      "text": "Hacer la compras",
-      "day": "Agosto 5 a las 17:00",
-      "reminder": true
+      "text": "Ordenar lista de tareas por fecha",
+      "day": "2022-01-14T17:00",
+      "reminder": true,
+      "id": 9
     },
     {
-      "id": 4,
-      "text": "Hacer algo con esto",
-      "day": "Agosto 5 a las 17:00",
-      "reminder": true
+      "text": "Rendir Base de Datos",
+      "day": "2022-02-11T08:34",
+      "reminder": true,
+      "id": 10
     },
     {
-      "id": 5,
-      "text": "cuando emite los datos",
-      "day": "Agosto 5 a las 17:00",
-      "reminder": true
+      "text": "Probar en chrome",
+      "day": "2022-01-15T20:00",
+      "reminder": true,
+      "id": 11
+    },
+    {
+      "text": "Probar firefox",
+      "day": "2022-08-15T15:30",
+      "reminder": true,
+      "id": 12
+    },
+    {
+      "text": "Probar edge",
+      "day": "2022-03-25T20:00",
+      "reminder": false,
+      "id": 13
     }
   ]
 }

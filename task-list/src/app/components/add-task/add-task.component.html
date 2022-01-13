@@ -2,6 +2,7 @@
 
 <form class ="add-form" 
 (ngSubmit)="onSubmit()"
+*ngIf="showAddTask"
 
 >
 <div class= "form-control">
@@ -13,7 +14,7 @@
         type="text" 
         name="text" 
         id="text" 
-        placeholder="Add Task Text"
+        placeholder="Agregar tarea"
         [(ngModel)]="text"   
     />
 </div>
@@ -21,10 +22,10 @@
 <div class= "form-control">
     <label for="day" >Day & Time</label>
     <input 
-        type="text" 
+        type="datetime-local" 
         name="day" 
         id="day" 
-        placeholder="Add Day & Time"
+        placeholder="dd-mm-aaaa"
         [(ngModel)]="day"
         />
 </div>
@@ -43,6 +44,7 @@
     type="submit" 
     value="Save Task" 
     class="btn btn-block" 
+    
     >
 
 </form>

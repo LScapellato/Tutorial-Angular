@@ -1,8 +1,9 @@
 export interface Task {
     id?: number;         //definimos el id?   para que no  sea exigible el campo
     text: string;
-    day: string;
+    day?: Date;
     reminder: boolean;
+
 }
 
 /*export class Task{
