@@ -1,8 +1,13 @@
 export interface Task {
     id: number;
     text: string;
+<<<<<<< Updated upstream
     day:string;
     reminder:boolean;
+=======
+    day?: Date;
+    reminder: boolean;
+>>>>>>> Stashed changes
 }
 
 /*export class Task{

@@ -37,7 +37,11 @@ export class TaskService {
     return this.http.put<Task>(url, task)
   }
 
+<<<<<<< Updated upstream
   addTask(task: Task): Observable<Task>{
+=======
+  agregarTarea(task: Task): Observable<Task>{
+>>>>>>> Stashed changes
    
     return this.http.post<Task> (this.apiUrl, task, httpOptions );
     

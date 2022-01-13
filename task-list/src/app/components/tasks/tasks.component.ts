@@ -42,11 +42,19 @@ export class TasksComponent implements OnInit {
 
   }
     
+<<<<<<< Updated upstream
   addTask(task: Task) {
       
       this.tasks.push(task);
       this.taskService.addTask(task).subscribe();
      //this.taskService.addTask(task).subscribe((task) => {this.tasks.push(task);})
+=======
+  agregarTarea(task: Task) {
+      
+      /*this.tasks.push(task);
+      this.taskService.addTask(task).subscribe();*/
+     this.taskService.agregarTarea(task).subscribe((task) => {this.tasks.push(task);})
+>>>>>>> Stashed changes
   }
   
   }
